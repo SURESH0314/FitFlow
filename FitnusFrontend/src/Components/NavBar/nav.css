@@ -1,0 +1,84 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item_nav_bar {
+  display: flex;
+  color: #040000;
+  padding: 10px 12%;
+  background-color: white;
+  border-bottom: 1px solid #04000031;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+.navitem {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+.item_nav {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.logosub {
+  color: #c1e8ff;
+}
+.form_box {
+  height: 90vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.form_lable {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.form_input {
+  margin: 8px 0;
+  padding: 3px 10px;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px solid #040000;
+  font-size: 18px;
+}
+.form_full {
+  padding: 25px;
+  border-radius: 8px;
+  width: 450px;
+  border: 2px solid #040000;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.topic {
+  font-size: 35px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.add_btnbtn {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #040000;
+  font-size: 20px;
+  background-color: #040000;
+  align-items: center;
+  justify-content: center;
+}
+
+.add_btnbtn:hover {
+  background-color: white;
+  color: #040000;
+}
