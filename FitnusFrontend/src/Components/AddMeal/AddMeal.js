@@ -3,6 +3,7 @@ import NavBar from "../NavBar/NavBar";
 import { useNavigate } from "react-router";
 import axios from "axios";
 
+// code to add meals 
 function AddMeal() {
   const navigate = useNavigate();
   const [mealplan, setMeal] = useState({
